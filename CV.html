@@ -1,0 +1,165 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[Your Name] - Product Designer CV</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #1C1E21; /* Meta's dark background */
+            color: #E4E6EB;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        .meta-gradient-text {
+            background: linear-gradient(90deg, #6A82FF, #A46BFF);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .meta-blue-bg {
+            background-color: #0E76FD; /* Meta's primary blue */
+        }
+        .meta-blue-text {
+            color: #2D88FF;
+        }
+        .card-bg {
+            background-color: #242526;
+            border: 1px solid #3A3B3C;
+        }
+        .tag {
+            background-color: rgba(45, 136, 255, 0.2);
+            color: #77A7FF;
+            padding: 6px 14px;
+            border-radius: 9999px;
+            font-size: 0.8rem;
+            font-weight: 500;
+            display: inline-block;
+            margin-right: 8px;
+            margin-bottom: 8px;
+            border: 1px solid rgba(45, 136, 255, 0.3);
+        }
+        @media print {
+            body {
+                background-color: #FFFFFF;
+                color: #000000;
+            }
+            .meta-gradient-text {
+                background: none;
+                -webkit-text-fill-color: #0E76FD;
+            }
+            .card-bg {
+                background-color: #F0F2F5;
+                border: 1px solid #DADDE1;
+            }
+            .tag {
+                 background-color: #E7F3FF;
+                 color: #1877F2;
+                 border: 1px solid #1877F2;
+            }
+            .meta-blue-text {
+                color: #1877F2;
+            }
+            .no-print {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body class="p-4 sm:p-8">
+    <div class="max-w-4xl mx-auto p-8 bg-[#1C1E21] rounded-xl">
+        <header class="text-center mb-10">
+            <h1 class="text-5xl md:text-6xl font-bold meta-gradient-text">[Your Name]</h1>
+            <p class="text-xl md:text-2xl text-gray-300 mt-2">Product Designer</p>
+            <div class="flex justify-center flex-wrap gap-x-4 gap-y-2 mt-5 text-gray-400">
+                <span>London, UK</span>
+                <span class="no-print">&bull;</span>
+                <a href="mailto:[Your Email]" class="hover:text-white">[Your Email]</a>
+                <span class="no-print">&bull;</span>
+                <a href="#" class="hover:text-white">[Your Portfolio]</a>
+                <span class="no-print">&bull;</span>
+                <a href="#" class="hover:text-white">[Your LinkedIn]</a>
+            </div>
+        </header>
+
+        <section class="mb-10">
+            <p class="text-center text-gray-300 leading-relaxed max-w-3xl mx-auto">
+                Product Designer with over 10 years of experience translating complex ideas into valuable, user-centric experiences. Proven ability to lead design initiatives, collaborate with cross-functional teams, and ship high-impact features for B2B and B2C products.
+            </p>
+        </section>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="md:col-span-2 space-y-8">
+                <h2 class="text-2xl font-bold border-b-2 border-gray-700 pb-2 meta-blue-text">Experience</h2>
+                <div class="space-y-6">
+                    <div class="card-bg p-5 rounded-lg">
+                        <h3 class="text-lg font-bold text-white">Senior Technical Consultant — UX</h3>
+                        <p class="text-gray-400 mb-2">ServiceNow | Jun 2022 - Present</p>
+                        <ul class="list-disc list-inside text-gray-300 space-y-1">
+                            <li>Lead the end-to-end design for new, ambiguous features, from discovery to launch.</li>
+                            <li>Partner with product, engineering, and research to define strategy and goals.</li>
+                        </ul>
+                    </div>
+                    <div class="card-bg p-5 rounded-lg">
+                        <h3 class="text-lg font-bold text-white">Management Consultant | UX Design</h3>
+                        <p class="text-gray-400 mb-2">Accenture | Aug 2021 - Jun 2022</p>
+                    </div>
+                     <div class="card-bg p-5 rounded-lg">
+                        <h3 class="text-lg font-bold text-white">Senior Consultant | UX Design</h3>
+                        <p class="text-gray-400 mb-2">EY | Mar 2020 - Jun 2021</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="space-y-8">
+                <h2 class="text-2xl font-bold border-b-2 border-gray-700 pb-2 meta-blue-text">Skills</h2>
+                <div>
+                    <span class="tag">UX/UI Design</span>
+                    <span class="tag">Interaction Design</span>
+                    <span class="tag">Prototyping</span>
+                    <span class="tag">Design Systems</span>
+                    <span class="tag">Product Strategy</span>
+                    <span class="tag">Agile/Scrum</span>
+                    <span class="tag">Figma</span>
+                    <span class="tag">ServiceNow</span>
+                </div>
+
+                <h2 class="text-2xl font-bold border-b-2 border-gray-700 pb-2 meta-blue-text">Education</h2>
+                <div class="card-bg p-5 rounded-lg">
+                     <h3 class="text-lg font-bold text-white">MA, Digital Communication</h3>
+                     <p class="text-gray-400">Hochschule Hannover</p>
+                </div>
+            </div>
+        </div>
+    </div>
+<script>window.parent.postMessage({ action: "ready" }, "*"); 
+ 
+window.console = new Proxy(console, {
+  get(target, prop) {
+    if (['log', 'warn', 'error'].includes(prop)) {
+      return new Proxy(target[prop], {
+        apply(fn, thisArg, args) {
+          fn.apply(thisArg, args);
+          window.parent.postMessage({ action: 'console', 
+            type: prop, 
+            args: args.map((arg) => {
+              try {
+                return JSON.stringify(arg).replace(/^["']|["']$/g, '');
+              } catch (e) {
+                return arg;
+              }
+            }) 
+          }, '*');
+        }
+      });
+    }
+    return target[prop];
+  }
+});
+</script></body>
+</html>
